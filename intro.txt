@@ -1,0 +1,3 @@
+DRAFT PROJECT
+
+"This project will work with microservices architecture and the programming languages to be used are: Python (Django, FastAPI) for the backend, Java (Spring Boot) for the backend, JavaScript (React) for the frontend, and PostgreSQL, MongoDB for the database. The technologies to be used include Docker, NGINX, and others."
