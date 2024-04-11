@@ -5,3 +5,21 @@ DRAFT PROJECT
 - UserServ ( Django )
 - ContentServ ( FastAPI )
 - SearchServ ( Spring Boot )
+
+1. "Blue Green" deployment strategy
+  Key Words
+    * Blue (Köhnə) Server, Green (Yeni) Server
+    * Zero Down Time deployment (Kəsintisiz deployment)
+
+
+2. Kubernetes, Service Discovery (const port vermek olmaz, deyishilir)
+
+3. Service Detection
+
+4. API Gateway
+
+5. API Composition pattern - her servisin oz database-i olur ve servislerler bir-birinin database-ne muraciet etmek ucun
+
+6. Data Normalization - (Her servisin database-inde eyni datalar olmaqi ucun replika var(clone kimi))
+
+7. Data consistance - Kafka, Message Proxy ve her hansisa bir servisde data yenilenende, diger servisdeki data da yenilmesi ucun
